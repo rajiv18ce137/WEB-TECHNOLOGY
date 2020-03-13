@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Third Assignment</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Student Biography webpage">
+    <meta name="keywords" content="HTML,Biography,Student,style">
+    <meta name="author" content="Rajiv Gupta">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        .image {
+            width: 10rem;
+            height: 10rem;
+           margin-left: 43%;
+        }
+    </style>
+    <script>
+        alert("Welcome to my page!");
+        function myStyle() {
+          document.getElementById("info").style.fontSize = "25px"; 
+          document.getElementById("info").style.color = "red";
+          document.getElementById("info").style.backgroundColor = "yellow";        
+        }
+        function myStyleReset() {
+          document.getElementById("info").style.fontSize = "18px"; 
+          document.getElementById("info").style.color = "black";
+          document.getElementById("info").style.backgroundColor = "white";        
+        }
+        </script>
+</head>
+
+<body>
+    <h1>Biography:</h1>
+    <div > <img
+            src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ffreevector.co%2Fwp-content%2Fuploads%2F2009%2F05%2F57073-student-with-graduation-cap.png&f=1&nofb=1"
+            alt="Student" class="image"> </div>
+    <div id="info">
+        <h3>Student:</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos corrupti impedit tenetur sit esse sint,
+            et quaerat cumque a repellat dicta praesentiumexplicabo voluptas iusto at dolorum numquam recusandae.
+            Labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium libero obcaecati voluptatem, non
+            officiis possimus sed. Voluptates deserunt nulla porro consequatur libero, mollitia laborum obcaecati
+            provident saepe est dolorum quasi.</p>
+        <h3>About:</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Possimus error quia saepe porro vitae. Rem nobis dolores,
+            voluptatem incidunt harum nostrum sint corrupti unde,
+            id similique facilis consectetur perferendis! Assumenda.</p>
+
+    </div>
+    <button type="button" onclick="myStyle()">Change Style</button>
+    <button type="button" onclick="myStyleReset()">Reset</button>
+
+</body>
