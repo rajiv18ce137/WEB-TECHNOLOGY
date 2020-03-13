@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <title>Forth Assignment</title>
+    <script>
+        function makeCapital() {
+          var x = document.getElementById("idNumber");
+          x.value = x.value.toUpperCase();
+        }
+        </script>
+</head>
+<body>
+    <h2>This is a form for students</h2>
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="Rajiv"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" placeholder="Gupta"><br>
+  <label for="idNumber">Id:</label><br>
+  <input type="text" id="idNumber" name="idNumber" placeholder="18CE137" onblur="makeCapital()"><br>
+  <label for= "eMail" >Email:</label><br>
+  <input type="email" id="eMail" email="eMail" placeholder = "example@domain.com"><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label></br>
+  <input type="button" value="Submit">
+</form>
+
+<p>Kindly fill the form</p>
+
+<p>This is important for the students who want to get scholorship :)</p>
+
+</body>
