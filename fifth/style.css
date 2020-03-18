@@ -1,0 +1,218 @@
+
+body {
+  background-color: rgb(21, 52, 66);
+  background-image: url('//ssl.gstatic.com/docs/forms/themes/images/v1/13eec24095497ac8641da8151c60fae4d7c5ad37791b4c1656e6f896cd1261f1/diamonds-bg.png');
+  background-repeat: repeat;
+  background-position: left top;
+}
+
+.ss-form-container, .ss-resp-card {
+  background-color: rgb(234,153,153);
+}
+
+.ss-footer, .ss-response-footer {
+  background-color: rgb(234,153,153);
+}
+
+.ss-grid-row-odd {
+  background-color: rgb(221,140,140);
+}
+
+.ss-form-container, .ss-resp-card {
+  border-color: rgb(159,197,232);
+}
+
+.ss-form-title {
+  text-align: left;
+}
+
+.ss-form-title[dir="rtl"] {
+  text-align: right;
+}
+
+.ss-form-desc {
+  text-align: left;
+}
+
+.ss-form-desc[dir="rtl"] {
+  text-align: right;
+}
+
+.ss-header-image-container {
+  height: auto;
+  text-align: center;
+}
+
+.ss-header-image-sizer {
+  padding-top: 20.625%;
+}
+
+.ss-item {
+  font-size: 1.080rem;
+}
+
+.ss-choices {
+  font-size: 1.000rem;
+}
+
+body {
+  font-family: "Roboto";
+  color: rgb(67,67,67);
+  font-weight: 400;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-record-username-message {
+  font-family: "Roboto";
+  color: rgb(67,67,67);
+  font-weight: 400;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-form-title {
+  font-family: "Raleway";
+  color: rgb(43, 4, 12);
+  font-weight: 400;
+  font-size: 2.460rem;
+  font-style: normal;
+}
+
+.ss-confirmation {
+  font-family: "Raleway";
+  color: rgb(0,73,92);
+  font-weight: 400;
+  font-size: 2.460rem;
+  font-style: normal;
+}
+
+.ss-page-title, .ss-section-title {
+  font-family: "Raleway";
+  color: rgb(84,110,122);
+  font-weight: 400;
+  font-size: 1.845rem;
+  font-style: normal;
+}
+
+.ss-form-desc, .ss-page-description, .ss-section-description {
+  font-family: "Roboto";
+  color: rgb(100,100,100);
+  font-weight: 400;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-resp-content {
+  font-family: "Roboto";
+  color: rgb(67,67,67);
+  font-weight: 400;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-q-title {
+  font-family: "Raleway";
+  color: rgb(96,125,139);
+  font-weight: 700;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-embeddable-object-container .ss-q-title {
+  font-family: "Raleway";
+  color: rgb(96,125,139);
+  font-weight: 700;
+  font-size: 1.845rem;
+  font-style: normal;
+}
+
+.ss-q-help, .ss-q-time-hint {
+  font-family: "Roboto";
+  color: rgb(130,130,130);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.ss-choice-label, .video-secondary-text, .ss-gridrow-leftlabel, .ss-gridnumber, .ss-scalenumber, .ss-leftlabel, .ss-rightlabel {
+  font-family: "Roboto";
+  color: rgb(130,130,130);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.error-message, .required-message, .ss-required-asterisk {
+  font-family: "Roboto";
+  color: rgb(37, 2, 2);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.ss-send-email-receipt {
+  font-family: "Raleway";
+  color: rgb(0,75,99);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.ss-password-warning {
+  font-family: "Arial";
+  color: rgb(67,67,67);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: italic;
+}
+
+.disclaimer {
+  font-family: "Arial";
+  color: rgb(67,67,67);
+  font-weight: 400;
+  font-size: 0.850rem;
+  font-style: normal;
+}
+
+.ss-footer-content {
+  font-family: "Arial";
+  color: rgb(67,67,67);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.progress-label {
+  font-family: "Roboto";
+  color: rgb(130,130,130);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+a:link {
+  color: rgb(0,0,237);
+}
+
+a:visited {
+  color: rgb(85,26,139);
+}
+
+a:active {
+  color: rgb(237,0,0);
+}
+
+input[type='text'], input:not([type]), textarea {
+  font-size: 1.000rem;
+}
+
+.error, .required, .errorbox-bad {
+  border-color: rgb(180,0,0);
+}
+
+.jfk-progressBar-nonBlocking .progress-bar-thumb {
+  background-color: rgb(130,130,130);
+}
+
+
